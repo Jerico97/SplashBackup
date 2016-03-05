@@ -1,26 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Threading;
-using Rocket.API;
-using Rocket.Unturned;
-using Rocket.Core;
-using UnityEngine;
-using Rocket.Unturned.Plugins;
-using SDG;
 using Rocket.Core.Plugins;
 using Rocket.Core.Logging;
-using Rocket.Unturned.Chat;
 using System.IO;
 using SDG.Unturned;
-using System.Timers;
-using Rocket.Unturned.Player;
-using Rocket.Unturned.Items;
 using Config;
-
-//C:\Users\Jerico\Desktop\Unturned Test Server\Unturned\Servers\TestServer2016\Rocket\
 
 namespace SplashBackup
 {
@@ -49,9 +32,6 @@ namespace SplashBackup
             string BackUpFolder = System.Environment.CurrentDirectory + @"\Plugins\SplashBackup\BackUps\";
             string ServerConfig = ServerPatch + @"Level\" + Provider.map + @"\";
 
-            //new Thread(() =>
-            //{
-                //DoBackUp:
             string FileTime = Convert.ToString(DateTime.Now.ToFileTime());
             string MoveTargetFolder = BackUpFolder + FileTime + @"\";
             System.IO.Directory.CreateDirectory(MoveTargetFolder);
@@ -59,7 +39,7 @@ namespace SplashBackup
             FileInfo BarricadesInfo = new FileInfo(ServerConfig + "Barricades.dat");
             FileInfo ObjectsInfo = new FileInfo(ServerConfig + "Objects.dat");
             FileInfo StructuresInfo = new FileInfo(ServerConfig + "Structures.dat");
-            Exception TooLargeFile = new Exception("WARNING! Your level's file is too large! Please load latest good file from plugin folder.");
+            Exception TooLargeFile = new Exception("WARNING! Your level's file is too large! Please load latest good file from plugin folder to Level folder.");
 
             if ( (BarricadesInfo.Length/1024/1024) > Instance.Configuration.Instance.MaxFilesSizeMB)
             {
@@ -82,9 +62,7 @@ namespace SplashBackup
             Logger.LogWarning("Structures size: " + StructuresInfo.Length / 1024 + "kb");
             Logger.LogWarning("Objects size   : " + ObjectsInfo.Length / 1024 + "kb");
             Logger.LogWarning("Barricades size: " + BarricadesInfo.Length / 1024 + "kb");
-            //Thread.Sleep(Instance.Configuration.Instance.BackUpMin * 60000);
-            //goto DoBackUp;
-            //}).Start();
+
         }
 
         void FixedUpdate()
