@@ -1,0 +1,11 @@
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\bin\Debug\Assembly-CSharp.dll
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\bin\Debug\Rocket.API.dll
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\bin\Debug\Rocket.Core.dll
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\bin\Debug\Rocket.Unturned.dll
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\bin\Debug\UnityEngine.dll
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\obj\Debug\ClassLibrary1.csprojResolveAssemblyReference.cache
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\bin\Debug\SplashBackup.dll
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\bin\Debug\SplashBackup.pdb
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\obj\Debug\SplashBackup.dll
+C:\Users\Jerico\Documents\Visual Studio 2015\Projects\LeeManTeen Plugin Production\ClassLibrary1\obj\Debug\SplashBackup.pdb
